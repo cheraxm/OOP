@@ -20,7 +20,7 @@ public class Customer {
     
     public Customer(){
         this("","");
-        numOfAccount = 0;
+        acct = new ArrayList();
     }
     public Customer(String firstName,String lastName){
         this.firstName = firstName;
